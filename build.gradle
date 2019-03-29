@@ -1,6 +1,13 @@
 plugins {
-    id 'java-library'
+    id 'java'
+    //id 'java-library'
+    id 'maven'
 }
+
+group = 'com.github.lanyuestudio'
+
+sourceCompatibility = 1.8 // java 8
+targetCompatibility = 1.8
 
 dependencies {
 }
